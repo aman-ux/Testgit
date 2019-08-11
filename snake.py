@@ -23,6 +23,7 @@ head.direction="stop"
 #snake food
 food=turtle.Turtle()
 food.speed(0)
+food.shapesize(0.5,0.5)
 food.shape("circle")
 food.color("red")
 food.penup()
